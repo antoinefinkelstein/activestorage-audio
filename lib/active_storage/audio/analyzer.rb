@@ -95,7 +95,7 @@ module ActiveStorage
           ffprobe,
           '-show_streams',
           '-v',
-          'error',
+          'fatal',
           '-print_format',
           'json',
           path
